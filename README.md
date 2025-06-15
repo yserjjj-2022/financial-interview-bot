@@ -38,8 +38,8 @@ createdb interview_bot_db
 
 5. **Настройте переменные окружения:**
 cp .env.example .env
-Отредактируйте .env файл, добавив ваши ключи
 
+Отредактируйте .env файл, добавив ваши ключи
 
 6. **Инициализируйте базу данных:**
 python test_extended_database.py
@@ -51,20 +51,23 @@ python run_bot.py
 
 ### 🔧 Запуск в Google Colab
 
-Установка зависимостей
+1. **Установка зависимостей**
 
 !pip install psycopg2-binary SQLAlchemy python-dotenv pyTelegramBotAPI pytz gigachat
-Клонирование репозитория
+
+2. **Клонирование репозитория**
 
 !git clone https://github.com/your-username/financial-interview-bot.git
 %cd financial-interview-bot
-Настройка переменных окружения
+
+3. **Настройка переменных окружения**
 
 import os
 os.environ['TELEGRAM_BOT_TOKEN'] = 'your_token_here'
 os.environ['GIGACHAT_CREDENTIALS'] = 'your_credentials_here'
 os.environ['DATABASE_URL'] = 'sqlite:///interview_bot.db'
-Создание базы данных и запуск
+
+4. **Создание базы данных и запуск**
 
 !python test_extended_database.py
 !python add_test_data.py
