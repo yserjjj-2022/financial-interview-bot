@@ -108,6 +108,7 @@ text
 
 ## 📁 Структура проекта
 
+'''
 financial-interview-bot/
 ├── modules/
 │ ├── database.py # Работа с базой данных
@@ -121,7 +122,7 @@ financial-interview-bot/
 ├── requirements.txt # Зависимости
 ├── .env.example # Шаблон переменных окружения
 └── README.md # Документация
-text
+'''
 
 ## 📄 Лицензия
 
