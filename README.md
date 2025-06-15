@@ -25,36 +25,29 @@ Telegram бот для проведения финансовых интервь�
 1. **Клонируйте репозиторий:**
 git clone https://github.com/your-username/financial-interview-bot.git
 cd financial-interview-bot
-text
 
 2. **Создайте виртуальное окружение:**
 python -m venv interview_bot_env
 source interview_bot_env/bin/activate # Linux/Mac
-text
 
 3. **Установите зависимости:**
 pip install -r requirements.txt
-text
 
 4. **Настройте PostgreSQL:**
 createdb interview_bot_db
-text
 
 5. **Настройте переменные окружения:**
 cp .env.example .env
 Отредактируйте .env файл, добавив ваши ключи
 
-text
 
 6. **Инициализируйте базу данных:**
 python test_extended_database.py
 python add_test_data.py
 python add_more_questions.py
-text
 
 7. **Запустите бота:**
 python run_bot.py
-text
 
 ### 🔧 Запуск в Google Colab
 
@@ -77,7 +70,6 @@ os.environ['DATABASE_URL'] = 'sqlite:///interview_bot.db'
 !python add_test_data.py
 !python add_more_questions.py
 !python run_bot.py
-text
 
 ## 🔑 Получение ключей
 
