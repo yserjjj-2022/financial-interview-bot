@@ -1,0 +1,49 @@
+# Файлы с секретами
+.env
+*.env
+.env.local
+.env.production
+
+# Папки с данными и выводом
+output/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+interview_bot_env/
+
+# IDE файлы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+logs/
+
+# Базы данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Временные файлы
+tmp/
+temp/
+
+# Тестовые файлы (оставляем только основные)
+test_gigachat_*.py
+debug_questions.py
+check_question_types.py
+test_updated_database.py
